@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79E2E69D1BF4204000CC442F /* DB.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E2E69C1BF4204000CC442F /* DB.m */; };
+		79E2E6A01BF420F700CC442F /* DownloadManagementFinish.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E2E69F1BF420F700CC442F /* DownloadManagementFinish.m */; };
+		79E2E6A31BF4213600CC442F /* DownloadingManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E2E6A21BF4213600CC442F /* DownloadingManagement.m */; };
+		79E2E6A81BF4369200CC442F /* DownloadManagement.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 79E2E6A71BF4369200CC442F /* DownloadManagement.sqlite */; };
 		79FEF9791BF2CC9900363B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF9781BF2CC9900363B84 /* main.m */; };
 		79FEF97C1BF2CC9900363B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF97B1BF2CC9900363B84 /* AppDelegate.m */; };
 		79FEF97F1BF2CC9900363B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF97E1BF2CC9900363B84 /* ViewController.m */; };
@@ -15,6 +19,10 @@
 		79FEF9871BF2CC9900363B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF9851BF2CC9900363B84 /* LaunchScreen.storyboard */; };
 		79FEF9921BF2CC9900363B84 /* LessonDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF9911BF2CC9900363B84 /* LessonDownloadTests.m */; };
 		79FEF99D1BF2CC9900363B84 /* LessonDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF99C1BF2CC9900363B84 /* LessonDownloadUITests.m */; };
+		79FEF9AC1BF2E58F00363B84 /* DownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF9AB1BF2E58F00363B84 /* DownLoad.m */; };
+		79FEF9AF1BF3270B00363B84 /* DownloadManagment.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF9AE1BF3270B00363B84 /* DownloadManagment.m */; };
+		79FEF9B21BF359C600363B84 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF9B11BF359C600363B84 /* SqliteManager.m */; };
+		79FEF9B41BF359E000363B84 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FEF9B31BF359E000363B84 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79E2E69B1BF4204000CC442F /* DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DB.h; sourceTree = "<group>"; };
+		79E2E69C1BF4204000CC442F /* DB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DB.m; sourceTree = "<group>"; };
+		79E2E69E1BF420F700CC442F /* DownloadManagementFinish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManagementFinish.h; sourceTree = "<group>"; };
+		79E2E69F1BF420F700CC442F /* DownloadManagementFinish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManagementFinish.m; sourceTree = "<group>"; };
+		79E2E6A11BF4213600CC442F /* DownloadingManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadingManagement.h; sourceTree = "<group>"; };
+		79E2E6A21BF4213600CC442F /* DownloadingManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadingManagement.m; sourceTree = "<group>"; };
+		79E2E6A71BF4369200CC442F /* DownloadManagement.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DownloadManagement.sqlite; sourceTree = "<group>"; };
 		79FEF9741BF2CC9900363B84 /* LessonDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FEF9781BF2CC9900363B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79FEF97A1BF2CC9900363B84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,13 @@
 		79FEF9981BF2CC9900363B84 /* LessonDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FEF99C1BF2CC9900363B84 /* LessonDownloadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonDownloadUITests.m; sourceTree = "<group>"; };
 		79FEF99E1BF2CC9900363B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FEF9AA1BF2E58F00363B84 /* DownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoad.h; sourceTree = "<group>"; };
+		79FEF9AB1BF2E58F00363B84 /* DownLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoad.m; sourceTree = "<group>"; };
+		79FEF9AD1BF3270B00363B84 /* DownloadManagment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManagment.h; sourceTree = "<group>"; };
+		79FEF9AE1BF3270B00363B84 /* DownloadManagment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManagment.m; sourceTree = "<group>"; };
+		79FEF9B01BF359C600363B84 /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		79FEF9B11BF359C600363B84 /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		79FEF9B31BF359E000363B84 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FEF9B41BF359E000363B84 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,7 @@
 		79FEF96B1BF2CC9900363B84 = {
 			isa = PBXGroup;
 			children = (
+				79FEF9B31BF359E000363B84 /* libsqlite3.tbd */,
 				79FEF9761BF2CC9900363B84 /* LessonDownload */,
 				79FEF9901BF2CC9900363B84 /* LessonDownloadTests */,
 				79FEF99B1BF2CC9900363B84 /* LessonDownloadUITests */,
@@ -105,6 +129,19 @@
 				79FEF97B1BF2CC9900363B84 /* AppDelegate.m */,
 				79FEF97D1BF2CC9900363B84 /* ViewController.h */,
 				79FEF97E1BF2CC9900363B84 /* ViewController.m */,
+				79FEF9AA1BF2E58F00363B84 /* DownLoad.h */,
+				79FEF9AB1BF2E58F00363B84 /* DownLoad.m */,
+				79FEF9AD1BF3270B00363B84 /* DownloadManagment.h */,
+				79FEF9AE1BF3270B00363B84 /* DownloadManagment.m */,
+				79E2E69B1BF4204000CC442F /* DB.h */,
+				79E2E69C1BF4204000CC442F /* DB.m */,
+				79E2E6A71BF4369200CC442F /* DownloadManagement.sqlite */,
+				79E2E69E1BF420F700CC442F /* DownloadManagementFinish.h */,
+				79E2E69F1BF420F700CC442F /* DownloadManagementFinish.m */,
+				79E2E6A11BF4213600CC442F /* DownloadingManagement.h */,
+				79E2E6A21BF4213600CC442F /* DownloadingManagement.m */,
+				79FEF9B01BF359C600363B84 /* SqliteManager.h */,
+				79FEF9B11BF359C600363B84 /* SqliteManager.m */,
 				79FEF9801BF2CC9900363B84 /* Main.storyboard */,
 				79FEF9831BF2CC9900363B84 /* Assets.xcassets */,
 				79FEF9851BF2CC9900363B84 /* LaunchScreen.storyboard */,
@@ -248,6 +285,7 @@
 			files = (
 				79FEF9871BF2CC9900363B84 /* LaunchScreen.storyboard in Resources */,
 				79FEF9841BF2CC9900363B84 /* Assets.xcassets in Resources */,
+				79E2E6A81BF4369200CC442F /* DownloadManagement.sqlite in Resources */,
 				79FEF9821BF2CC9900363B84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FEF97F1BF2CC9900363B84 /* ViewController.m in Sources */,
+				79FEF9AC1BF2E58F00363B84 /* DownLoad.m in Sources */,
 				79FEF97C1BF2CC9900363B84 /* AppDelegate.m in Sources */,
+				79E2E6A31BF4213600CC442F /* DownloadingManagement.m in Sources */,
+				79E2E6A01BF420F700CC442F /* DownloadManagementFinish.m in Sources */,
+				79FEF9B21BF359C600363B84 /* SqliteManager.m in Sources */,
 				79FEF9791BF2CC9900363B84 /* main.m in Sources */,
+				79FEF9AF1BF3270B00363B84 /* DownloadManagment.m in Sources */,
+				79E2E69D1BF4204000CC442F /* DB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +545,7 @@
 				79FEF9A31BF2CC9900363B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79FEF9A41BF2CC9900363B84 /* Build configuration list for PBXNativeTarget "LessonDownloadTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +554,7 @@
 				79FEF9A61BF2CC9900363B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79FEF9A71BF2CC9900363B84 /* Build configuration list for PBXNativeTarget "LessonDownloadUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +563,7 @@
 				79FEF9A91BF2CC9900363B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
